@@ -59,6 +59,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  @mixin hoverMixin{
+    background-color:color.$yellow;;
+   
+   }
 
   // 5. Írd meg a mixins modulban a
   // hátteret átváltoztató mixint,
