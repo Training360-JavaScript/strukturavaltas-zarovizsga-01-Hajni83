@@ -1,8 +1,8 @@
 // 1/1. Használd a már létrehozott colors modult!
-@import 'assets/modules/colors';
+@use '../assets/modules/colors';
 // 1/2. Használd a már létrehozott mixins modult!
 
-@import 'assets/modules/mixins';
+@use '../assets/modules/mixins';
 
 
 .container {
@@ -61,7 +61,7 @@
   width: 100%;
   @mixin hoverMixin{
     background-color:color.$yellow;;
-   
+
    }
 
   // 5. Írd meg a mixins modulban a
